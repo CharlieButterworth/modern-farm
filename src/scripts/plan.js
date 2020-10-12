@@ -1,7 +1,7 @@
 const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
 
 export const createPlan = () => {
-    const plan = []
+    const plan = document.querySelector(".container")
 
     for (let index = 0; index < 3; index++) {
         const row = []
@@ -10,10 +10,10 @@ export const createPlan = () => {
         }
         plan.push(row)
     }
-
+    
     return plan
-}
 
+}
 
 
 
