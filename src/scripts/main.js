@@ -1,3 +1,4 @@
+import { addPlant, usePlants } from "./field.js";
 import { createPlan } from "./plan.js";
 import { createAsparagus } from "./seeds/asparagus.js"
 
@@ -7,3 +8,8 @@ console.log(asparagusSeed)
 const yearlyPlan = createPlan()
 
 console.log(yearlyPlan)
+
+
+addPlant()
+usePlants()
+
