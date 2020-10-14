@@ -1,3 +1,3 @@
-export const harvestPlan = () => {
-    
+export const harvestPlants = () => {
+
 }

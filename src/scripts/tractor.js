@@ -8,7 +8,7 @@ import { createWheat } from "./seeds/wheat"
 
 export const plantSeed = (yearlyPlan) => {
     const plant = yearlyPlan
-
+return yearlyPlan
 }
 
 
@@ -20,3 +20,5 @@ createPotato()
 createSoybean()
 createSunflower()
 createWheat()
+
+
